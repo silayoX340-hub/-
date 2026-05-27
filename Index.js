@@ -25,7 +25,16 @@ async function startBot() {
         if (text === '.ping') {
             await sock.sendMessage(message.key.remoteJid, { text: 'Pong! SilayoX V6 is alive ✅' });
         }
-    });
+    if (text === '.menu') {
+    const menu = `
+*🔥 SilayoX V6 Menu 🔥*
+
+.ping - Check if bot is alive
+.menu - Show this menu
+    `;
+    await sock.sendMessage(message.key.remoteJid, { text: menu });
+    }
+    }d);
 }
 
 startBot();
