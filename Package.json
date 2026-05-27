@@ -1,0 +1,11 @@
+{name": "silayox-v6-bot",
+  "version": "1.0.0",
+  "description": "SilayoX V6 WhatsApp Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "baileys": "^6.7.16"
+  }
+}
