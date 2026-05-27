@@ -1,11 +1,36 @@
-{name": "silayox-v6-bot",
-  "version": "1.0.0",
-  "description": "SilayoX V6 WhatsApp Bot",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
+{
+  "name": "silayox-v6-bot",
+  "version": "1.9.4",
+  "description": "SilayoX V6 - Fast & Powerful WhatsApp Bot",
+  "main": "Index.js",
+  "engines": {
+    "node": ">= 20.x",
+    "npm": ">= 10.x"
   },
+  "scripts": {
+    "start": "node Index.js",
+    "dev": "nodemon Index.js",
+    "stop": "pkill -f node",
+    "restart": "pkill -f node && npm start"
+  },
+  "author": "SilayoX Team",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "silayox"
+  ],
   "dependencies": {
-    "baileys": "^6.7.16"
+    "@whiskeysockets/baileys": "https://github.com/TristanCage/Bailey/archive/refs/tags/v6.7.3.tar.gz",
+    "adm-zip": "^0.5.16",
+    "better-sqlite3": "^12.2.0",
+    "acrcloud": "^1.4.0",
+    "awesome-phonenumber": "^7.4.0",
+    "axios": "^1.8.3",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.1.0",
+    "check-disk-space": "^3.3.1",
+    "ab-downloader": "latest",
+    "btch-downloader": "6
   }
 }
