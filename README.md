@@ -1,5 +1,5 @@
 # SilayoX V6
-<p align="center">src="https://files.catbox.moe/yourlogo.png" width="300" alt="SilayoX Logo"/>
+<https://ibb.co/B2Njghkp
 </p>
 <h1 align="center">🔥 SILAYOX V6 WHATSAPP BOT 🔥</h1>
 <h3 align="center">A powerful, fast, and multi-device WhatsApp bot built with Baileys</h3>
