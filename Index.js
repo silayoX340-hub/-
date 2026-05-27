@@ -70,7 +70,7 @@ function detectPlatform() {
   }
 }
 
-const allowedPlatforms = ["Heroku", "Render", "Termux", "Panel", "Windows", "SilayoX Platform", "macOS"];
+const allowedPlatforms = ["Heroku", "Render", "Termux", "Panel", "Windows", "SilayoX Platform", "macOS", "Linux"];
 const currentPlatform = detectPlatform();
 
 if (!allowedPlatforms.includes(currentPlatform)) {
