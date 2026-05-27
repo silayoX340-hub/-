@@ -1,5 +1,5 @@
 # SilayoX V6
-<p align="center">src="https://files.catbox.moe/https://ibb.co/B2Njghkp
+<p align="center">src="https://files.catbox.moe//ibb.co/B2Njghkp
 .png" width="300" alt="SilayoX Logo"/>
 </p>
 <h1 align="center">🔥 SILAYOX V6 WHATSAPP BOT 🔥</h1>
