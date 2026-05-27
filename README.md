@@ -1,5 +1,5 @@
 # SilayoX V6
-<https://ibb.co/B2Njghkp
+<https://i.ibb.co/GQTkVZm6/IMG-20260527-WA0024.jpg
 </p>
 <h1 align="center">🔥 SILAYOX V6 WHATSAPP BOT 🔥</h1>
 <h3 align="center">A powerful, fast, and multi-device WhatsApp bot built with Baileys</h3>
