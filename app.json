@@ -1,0 +1,73 @@
+{
+  "name": "SilayoX V6",
+  "version": "latest",
+  "description": "SilayoX V6, the fastest WhatsApp Bot",
+  "logo": "https://raw.githubusercontent.com/YourUsername/SilayoX/main/assets/logo.png",
+  "keywords": ["whatsapp", "bot", "md", "silayox"],
+  "repository": "https://github.com/YourUsername/SilayoX",
+  "stack": "container",
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "env": {
+    "SESSION_ID": {
+      "description": "Paste your SilayoX SESSION_ID here. Get it from your session generator.",
+      "value": "",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Your bot name. Default is SilayoX V6.",
+      "value": "SilayoX V6",
+      "required": false
+    },
+    "PREFIX": {
+      "description": "Command prefix. Default is .",
+      "value": ".",
+      "required": false
+    },
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number with country code. Example: 254712345678",
+      "value": "",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Your name. This shows in owner-only commands.",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Heroku API key for auto updates and restarts.",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Your Heroku app name. Must match the app you deploy.",
+      "value": "",
+      "required": false
+    },
+    "TIMEZONE": {
+      "description": "Your timezone. Default is Africa/Nairobi.",
+      "value": "Africa/Nairobi",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
